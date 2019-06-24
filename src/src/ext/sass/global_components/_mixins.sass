@@ -5,3 +5,18 @@
     background: -ms-linear-gradient(45deg, $color1, $color2)
     background: -moz-linear-gradient(45deg, $color1, $color2)
     background: -webkit-linear-gradient(45deg, $color1, $color2)
+
+@mixin border_radius($param)
+    border-radius:          $param
+    -o-border-radius:       $param
+    -ms-border-radius:      $param
+    -moz-border-radius:     $param
+    -webkit-border-radius:  $param
+
+@mixin transition($param1,$param2)
+    -webkit-transition: -webkit-#{$param1} $param2
+    -moz-transition: $param1 $param2
+    -o-transition: $param1 $param2
+    transition: -webkit-#{$param1} $param2
+    transition: $param1 $param2
+    transition: $param1 $param2, -webkit-#{param1} $param2

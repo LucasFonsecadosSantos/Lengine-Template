@@ -31,3 +31,16 @@ mixin headerSettings(title,description,author,copyright,themeColor,language)
     meta(name="theme-color", content= themeColor)
     meta(name="msapplication-TileColor", content= themeColor)
     meta(name="msapplication-TileImage", content="img/favicon/ms-icon-144x144.png")
+
+mixin makeCard()
+    .card.light-blue
+        .cardBody.white-text
+                span.card-title Card Title
+                p.
+                    I am a very simple card with solid background &amp; link. I am good at
+                    containing small bits of
+                    information. I am convenient because I require little markup to use
+                    effectively.
+        .cardFooter
+                a.lime-text.text-accent-1(href="#!") This is a link
+                a.lime-text.text-accent-1(href="#!") This is a link
