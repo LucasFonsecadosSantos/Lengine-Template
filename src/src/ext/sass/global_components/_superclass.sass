@@ -1,0 +1,97 @@
+// DEVELOPED BY: Lucas Fonsceca dos Santos.
+// GPL - General Public License v3.0
+///////////////////////////////////////////////////////////////////////////////////
+///                                                                             ///
+/// [PROJECT]: Name: Lengine Template                                           ///
+///            URL:  lengine.lcfcompany.com.br                                  ///
+/// +-------------------------------------------------------------------------+ ///
+///                                                                             ///
+/// [DEVELOPMENT]:  Code Developer:   Lucas Fonseca dos Santos.                 ///
+///                 System Developer: Lucas Fonseca dos Santos.                 ///
+///                 Design Creater:   Lucas Fonseca dos Santos.                 ///
+///                 Tester:           Lucas Fonseca dos Santos.                 ///
+/// +-------------------------------------------------------------------------+ ///
+///                                                                             ///
+/// [INFORMATIONS]: No more information.                                        ///
+/// +-------------------------------------------------------------------------+ ///
+///                                                                             ///
+///   Use .content to write class .container by bootstrap and .line to write    ///
+///   .row class by bootstrap.                                                  ///
+///                                                                             ///
+///   Use mixin extend_grid() with the params: LG value, MD value, SM value,    ///
+///   XS value in respective order to extend grid system of bootstrap.          ///
+///                                                                             ///
+///////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////
+///                              FILE INFORMATION                               ///
+///-----------------------------------------------------------------------------///
+/// [NAME]: Super class                                                         ///
+/// [CONTENT]: It contains all general classes definitions.                     ///
+///////////////////////////////////////////////////////////////////////////////////
+
+//-------------------------[ COLOR CLASSES ]--------------------------//
+.gradient-45deg-amber-amber
+    @include gradient($__COLOR__amber_darken-4,$__COLOR__amber_lighten-1)
+.gradient-45deg-indigo-blue
+    @include gradient($__COLOR__indigo_darken-2,$__COLOR__blue_darken-2)
+.gradient-45deg-indigo-purple
+    @include gradient($__COLOR__indigo_darken-2,$__COLOR__purple_darken-2)
+.gradient-45deg-blue-indigo
+    @include gradient($__COLOR__blue_accent-4,$__COLOR__indigo_darken-1)
+.gradient-45deg-brown-brown
+    @include gradient(#6d4c41,$__COLOR__blue_lighten-4)
+.gradient-45deg-deep-purple-blue
+    @include gradient($__COLOR__deep-purple_accent-4,$__COLOR__blue_darken-2)
+.gradient-45deg-indigo-light-blue
+    @include gradient($__COLOR__indigo_darken-1,$__COLOR__light-blue_lighten-2)
+.gradient-45deg-blue-grey-blue
+    @include gradient(#263238,$__COLOR__blue_accent-3)
+.gradient-45deg-deep-orange-orange
+    @include gradient($__COLOR__deep-orange_darken-4,$__COLOR__orange_darken-2)
+.gradient-45deg-red-pink
+    @include gradient($__COLOR__red_accent-2,$__COLOR__pink_lighten-3)
+.gradient-45deg-purple-deep-orange
+    @include gradient($__COLOR__purple_darken-1,$__COLOR__deep-orange_accent-2)
+.gradient-45deg-light-blue-cyan
+    @include gradient($__COLOR__light-blue_darken-2,$__COLOR__cyan_lighten-1)
+.gradient-45deg-light-blue-teal
+    @include gradient($__COLOR__amber_darken-4,$__COLOR__amber_lighten-1)
+.gradient-45deg-green-teal
+    @include gradient($__COLOR__green_darken-1,$__COLOR__teal_accent-3)
+.gradient-45deg-purple-amber
+    @include gradient($__COLOR__purple_accent-3,$__COLOR__amber_darken-2)
+.gradient-45deg-light-blue-indigo
+    @include gradient($__COLOR__light-blue_lighten-4,$__COLOR__indigo_lighten-3)
+.gradient-45deg-indigo-light-blue
+    @include gradient($__COLOR__indigo_darken-1,$__COLOR__light-blue_lighten-2)
+.gradient-45deg-purple-deep-purple
+    @include gradient($__COLOR__purple_darken-2,$__COLOR__deep-purple_accent-2)
+.gradient-45deg-yellow-green
+    @include gradient($__COLOR__yellow_accent-1,$__COLOR__green_accent-1)
+.gradient-45deg-teal-cyan
+    @include gradient($__COLOR__teal_lighten-5,$__COLOR__cyan_accent-3)
+.gradient-45deg-purple-light-blue
+    @include gradient($__COLOR__purple_accent-2,$__COLOR__light-blue_lighten-2)
+.gradient-45deg-orange-deep-orange
+    @include gradient($__COLOR__orange_lighten-4,$__COLOR__deep-orange_lighten-4)
+.gradient-45deg-blue-grey-blue-grey
+    @include gradient(#CFD8DC,#546e7A)
+.gradient-45deg-cyan-cyan
+    @include gradient($__COLOR__cyan_accent-2,$__COLOR__cyan_accent-3)
+.gradient-45deg-deep-purple-purple
+    @include gradient($__COLOR__deep-purple_lighten-4,$__COLOR__purple_lighten-5)
+.gradient-45deg-cyan-light-green
+    @include gradient($__COLOR__cyan_darken-2,$__COLOR__light-green_accent-2)
+.gradient-45deg-yellow-teal
+    @include gradient($__COLOR__yellow_lighten-4,$__COLOR__teal_accent-2)
+.gradient-45deg-light-green-amber
+    @include gradient($__COLOR__light-green_lighten-3,$__COLOR__amber_lighten-5)
+.gradient-45deg-orange-amber
+    @include gradient($__COLOR__orange_darken-4,$__COLOR__blue_darken-2)
+.gradient-45deg-cyan-light-green
+    @include gradient($__COLOR__cyan_darken-2,$__COLOR__light-green_accent-2)
+.gradient-45deg-purple-pink
+    @include gradient($__COLOR__purple_accent-1,$__COLOR__pink_lighten-5)
+
+//-------------------------------------------------------------------------------//
